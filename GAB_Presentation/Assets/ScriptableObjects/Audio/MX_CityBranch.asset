@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139fda4faade94a6b83cc44faa8ba5c4, type: 3}
+  m_Name: MX_CityBranch
+  m_EditorClassIdentifier: 
+  snapshotToLoad: {fileID: 245786269550572342, guid: 89cdcabbc41284df3b6bd4ef83948729,
+    type: 2}
+  musicSegments:
+  - segment: {fileID: 8300000, guid: 45b6189e34dd9467284417702d808fba, type: 3}
+    group: {fileID: 243664915832156522, guid: 89cdcabbc41284df3b6bd4ef83948729, type: 2}
+  - segment: {fileID: 8300000, guid: a3e5afb45ee074a1c887f25731fd295c, type: 3}
+    group: {fileID: 243328431584589862, guid: 89cdcabbc41284df3b6bd4ef83948729, type: 2}
+  transitionToSegment: {fileID: 8300000, guid: 11741189e7c5244b286b88087ceb0093, type: 3}
+  group: {fileID: 243059799288124162, guid: 89cdcabbc41284df3b6bd4ef83948729, type: 2}
+  bPM: 100
+  beatOfEndTail: 1
+  sampleRateUsed: 48000
